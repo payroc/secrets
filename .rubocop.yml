@@ -1,0 +1,20 @@
+Lint/HandleExceptions:
+  Exclude:
+    - 'lib/secrets/rails.rb'
+    - 'lib/secrets.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'Rakefile'
+    - 'lib/secrets/version.rb'
+
+Style/FileName:
+  Exclude:
+    - 'lib/secrets/rails-now.rb'
+    - 'lib/secrets-rails.rb'
+
+Style/HashSyntax:
+  EnforcedStyle: 'ruby19'
+
+Style/StringLiterals:
+  EnforcedStyle: 'double_quotes'
