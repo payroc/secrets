@@ -16,5 +16,5 @@ Gem::Specification.new 'secrets', Secrets::VERSION do |gem|
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'rubocop', '~>0.40.0'
+  gem.add_development_dependency 'rubocop', '~>0.54.0'
 end
